@@ -151,13 +151,60 @@
     </node>
   </node>
   <node concept="24kQdi" id="7LNOydsMqpH">
-    <property role="3GE5qa" value="expressions.relational_expressions" />
-    <ref role="1XX52x" to="4jf8:7LNOydsMqpG" resolve="BatteryRelationalExpression" />
+    <property role="3GE5qa" value="expressions.relational_expressions.battery" />
+    <ref role="1XX52x" to="4jf8:7LNOydsMqpG" resolve="BatteryCapacityRelationalExpression" />
     <node concept="3EZMnI" id="7LNOydsMqpJ" role="2wV5jI">
       <node concept="3F0ifn" id="7LNOydsMqpP" role="3EZMnx">
         <property role="3F0ifm" value="Bateria Test" />
       </node>
       <node concept="2iRfu4" id="7LNOydsMqpM" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7LNOydsMPZ8">
+    <property role="3GE5qa" value="expressions.relational_expressions.battery" />
+    <ref role="1XX52x" to="4jf8:7LNOydsMPZ2" resolve="BatteryPercentageRelationalExpression" />
+    <node concept="3EZMnI" id="7LNOydsMPZa" role="2wV5jI">
+      <node concept="3F0ifn" id="7LNOydsMQ0u" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+      </node>
+      <node concept="3F0ifn" id="7LNOydsMPZi" role="3EZMnx">
+        <property role="3F0ifm" value="Battery.percentage" />
+      </node>
+      <node concept="3F0A7n" id="7LNOydsMPZJ" role="3EZMnx">
+        <ref role="1NtTu8" to="4jf8:7LNOydsMPZH" resolve="relational_operator" />
+      </node>
+      <node concept="3F0A7n" id="7LNOydsMPZl" role="3EZMnx">
+        <ref role="1NtTu8" to="4jf8:7LNOydsMPZ7" resolve="percentage" />
+      </node>
+      <node concept="3F0ifn" id="7LNOydsMQ05" role="3EZMnx">
+        <property role="3F0ifm" value="%" />
+      </node>
+      <node concept="2iRfu4" id="7LNOydsMPZd" role="2iSdaV" />
+      <node concept="3F0ifn" id="7LNOydsMQ0x" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="7LNOydsMQ07">
+    <property role="3GE5qa" value="expressions.relational_expressions.battery" />
+    <ref role="1XX52x" to="4jf8:7LNOydsMPZ4" resolve="BatteryStatusRelationalExpression" />
+    <node concept="3EZMnI" id="7LNOydsMQ0b" role="2wV5jI">
+      <node concept="3F0ifn" id="7LNOydsMQ0o" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+      </node>
+      <node concept="3F0ifn" id="7LNOydsMQ0f" role="3EZMnx">
+        <property role="3F0ifm" value="Battery.status" />
+      </node>
+      <node concept="3F0A7n" id="7LNOydsMQ0i" role="3EZMnx">
+        <ref role="1NtTu8" to="4jf8:7LNOydsMPZH" resolve="relational_operator" />
+      </node>
+      <node concept="3F0A7n" id="7LNOydsMQ0l" role="3EZMnx">
+        <ref role="1NtTu8" to="4jf8:7LNOydsMQ01" resolve="status" />
+      </node>
+      <node concept="2iRfu4" id="7LNOydsMQ0e" role="2iSdaV" />
+      <node concept="3F0ifn" id="7LNOydsMQ0r" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+      </node>
     </node>
   </node>
 </model>

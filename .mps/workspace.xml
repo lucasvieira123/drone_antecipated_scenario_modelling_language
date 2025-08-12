@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1306b077-f2d9-4191-be0b-c5828dc6f6a4" name="Changes" comment="Created initial structure of DSL" />
+    <list default="true" id="1306b077-f2d9-4191-be0b-c5828dc6f6a4" name="Changes" comment="Created initial structure of DSL">
+      <change beforePath="$PROJECT_DIR$/languages/DAS_ML/models/DAS_ML.constraints.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML/models/DAS_ML.constraints.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DAS_ML/models/DAS_ML.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML/models/DAS_ML.editor.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DAS_ML/models/DAS_ML.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML/models/DAS_ML.structure.mps" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +20,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="7cd2560a-69fe-48e4-9887-e10e20a60167/r:a5d95a09-adb3-49b4-824b-b5429c6d3819(TempModule7cd2560a-69fe-48e4-9887-e10e20a60167/ConsoleModel_369030698757100)">
+            <model ref="ce1ea6f6-ee95-414c-9617-2e6cf136159f/r:0073c8d0-f9fd-40cc-93b5-c8a5fce46b4b(TempModulece1ea6f6-ee95-414c-9617-2e6cf136159f/ConsoleModel_372235495057000)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -33,11 +40,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="7LNOydsMIlt">
-                <node concept="3balQm" id="7LNOydsMIlu" role="aymYE" />
-                <node concept="2Clz$F" id="7LNOydsMIlv" role="aymYO" />
-                <node concept="2_V_lH" id="7LNOydsMIlw" role="1PhJh3">
-                  <ref role="2_V_lI" node="7LNOydsMIlv" />
+              <node concept="aymSD" id="7LNOydsMNrO">
+                <node concept="3balQm" id="7LNOydsMNrP" role="aymYE" />
+                <node concept="2Clz$F" id="7LNOydsMNrQ" role="aymYO" />
+                <node concept="2_V_lH" id="7LNOydsMNrR" role="1PhJh3">
+                  <ref role="2_V_lI" node="7LNOydsMNrQ" />
                 </node>
               </node>
             </model>
@@ -62,6 +69,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "lucasvieira123"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/lucasvieira123/drone_antecipated_scenario_modelling_language.git",
+    "accountId": "ba019baa-d8fa-4533-a368-775146073ed3"
+  }
+}]]></component>
   <component name="MPSBookmarkManager">
     <option name="myBookmarkInfos">
       <array>
@@ -114,19 +133,49 @@
     </option>
   </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1" />
+    <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
-              <item name="MPS Project [drone_antecipated_scenario_model_language] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="MPS Project [drone_antecipated_scenario_modelling_language] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
             </path>
             <path>
               <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
-              <item name="MPS Project [drone_antecipated_scenario_model_language] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="MPS Project [drone_antecipated_scenario_modelling_language] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
               <item name="DAS_ML [language]" type="cd46e9f6:LanguageProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [drone_antecipated_scenario_modelling_language] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="DAS_ML [language]" type="cd46e9f6:LanguageProjectViewNode" />
+              <item name="r:356976db-ed45-449a-b8b5-b0d06c4a39c5(DAS_ML.structure) in IdeaFile[path: C:/Users/lucas_alves/MPSProjects/test/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.structure.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [drone_antecipated_scenario_modelling_language] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="DAS_ML [language]" type="cd46e9f6:LanguageProjectViewNode" />
+              <item name="r:356976db-ed45-449a-b8b5-b0d06c4a39c5(DAS_ML.structure) in IdeaFile[path: C:/Users/lucas_alves/MPSProjects/test/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.structure.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+              <item name="'expressions'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [drone_antecipated_scenario_modelling_language] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="DAS_ML [language]" type="cd46e9f6:LanguageProjectViewNode" />
+              <item name="r:356976db-ed45-449a-b8b5-b0d06c4a39c5(DAS_ML.structure) in IdeaFile[path: C:/Users/lucas_alves/MPSProjects/test/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.structure.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+              <item name="'expressions'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+              <item name="'expressions.relational_expressions'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [drone_antecipated_scenario_modelling_language] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="DAS_ML [language]" type="cd46e9f6:LanguageProjectViewNode" />
+              <item name="r:356976db-ed45-449a-b8b5-b0d06c4a39c5(DAS_ML.structure) in IdeaFile[path: C:/Users/lucas_alves/MPSProjects/test/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.structure.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+              <item name="'expressions'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+              <item name="'expressions.relational_expressions'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+              <item name="'expressions.relational_expressions.battery'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
             </path>
           </expand>
           <select />
@@ -137,7 +186,7 @@
             <presentation>
               <attributes />
               <data iconPath="expui/nodes/homeFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="" />
-              <item name="MPS Project [drone_antecipated_scenario_model_language] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="MPS Project [drone_antecipated_scenario_modelling_language] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
               <presentation>
                 <attributes />
                 <data iconPath="expUi/nodes/solution.svg" iconPlugin="com.intellij" isLeaf="false" text="DAS_ML.runtime" />
@@ -155,27 +204,112 @@
                 <presentation>
                   <attributes />
                   <data isLeaf="false" text="structure" />
-                  <item name="r:356976db-ed45-449a-b8b5-b0d06c4a39c5(DAS_ML.structure) in IdeaFile[path: C:/Users/lucas_alves/Workspace/PhD/MPSProjects/drone_antecipated_scenario_model_language/languages/DAS_ML/models/DAS_ML.structure.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+                  <item name="r:356976db-ed45-449a-b8b5-b0d06c4a39c5(DAS_ML.structure) in IdeaFile[path: C:/Users/lucas_alves/MPSProjects/test/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.structure.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+                  <presentation>
+                    <attributes />
+                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="expressions" />
+                    <item name="'expressions'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+                    <presentation>
+                      <attributes />
+                      <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="action_expressions" />
+                      <item name="'expressions.action_expressions'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes />
+                      <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="logical_expressions" />
+                      <item name="'expressions.logical_expressions'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes />
+                      <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="relational_expressions" />
+                      <item name="'expressions.relational_expressions'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+                      <presentation>
+                        <attributes />
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="battery" />
+                        <item name="'expressions.relational_expressions.battery'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+                        <presentation>
+                          <attributes />
+                          <data isLeaf="true" text="BatteryCapacityRelationalExpression" />
+                          <item name="BatteryCapacityRelationalExpression" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes />
+                          <data isLeaf="true" text="BatteryCurrentRelationalExpression" />
+                          <item name="BatteryCurrentRelationalExpression" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes />
+                          <data isLeaf="true" text="BatteryPercentageRelationalExpression" />
+                          <item name="BatteryPercentageRelationalExpression" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes />
+                          <data isLeaf="true" text="BatteryStatusRelationalExpression" />
+                          <item name="BatteryStatusRelationalExpression" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes />
+                          <data isLeaf="true" text="BatteryVoltageRelationalExpression" />
+                          <item name="BatteryVoltageRelationalExpression" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                        </presentation>
+                      </presentation>
+                      <presentation>
+                        <attributes />
+                        <data isLeaf="true" text="RelationalExpression" />
+                        <item name="RelationalExpression" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes />
+                        <data isLeaf="true" text="RelationalOperatorEnum" />
+                        <item name="RelationalOperatorEnum" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                      </presentation>
+                    </presentation>
+                    <presentation>
+                      <attributes />
+                      <data isLeaf="true" text="ConditionalExpression" />
+                      <item name="ConditionalExpression" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes />
+                    <data isLeaf="true" text="AntecipatedScenarioRelationship" />
+                    <item name="AntecipatedScenarioRelationship" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes />
+                    <data isLeaf="true" text="DroneAntecipatedScenario" />
+                    <item name="DroneAntecipatedScenario" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes />
+                    <data isLeaf="true" text="HighAntecipatedScenarios" />
+                    <item name="HighAntecipatedScenarios" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes />
+                    <data isLeaf="true" text="StatusEnum" />
+                    <item name="StatusEnum" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                  </presentation>
                 </presentation>
                 <presentation>
                   <attributes />
                   <data isLeaf="false" text="editor" />
-                  <item name="r:32c34070-4ae1-455b-948f-5b258efba2b0(DAS_ML.editor) in IdeaFile[path: C:/Users/lucas_alves/Workspace/PhD/MPSProjects/drone_antecipated_scenario_model_language/languages/DAS_ML/models/DAS_ML.editor.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+                  <item name="r:32c34070-4ae1-455b-948f-5b258efba2b0(DAS_ML.editor) in IdeaFile[path: C:/Users/lucas_alves/MPSProjects/test/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.editor.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
                 </presentation>
                 <presentation>
                   <attributes />
-                  <data isLeaf="true" text="constraints" />
-                  <item name="r:f7cd2215-0bd5-4435-a8f7-5ce614951a13(DAS_ML.constraints) in IdeaFile[path: C:/Users/lucas_alves/Workspace/PhD/MPSProjects/drone_antecipated_scenario_model_language/languages/DAS_ML/models/DAS_ML.constraints.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+                  <data isLeaf="false" text="constraints" />
+                  <item name="r:f7cd2215-0bd5-4435-a8f7-5ce614951a13(DAS_ML.constraints) in IdeaFile[path: C:/Users/lucas_alves/MPSProjects/test/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.constraints.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
                 </presentation>
                 <presentation>
                   <attributes />
                   <data isLeaf="true" text="behavior" />
-                  <item name="r:4cb56647-79a2-4f5e-a406-c154b66e37e4(DAS_ML.behavior) in IdeaFile[path: C:/Users/lucas_alves/Workspace/PhD/MPSProjects/drone_antecipated_scenario_model_language/languages/DAS_ML/models/DAS_ML.behavior.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+                  <item name="r:4cb56647-79a2-4f5e-a406-c154b66e37e4(DAS_ML.behavior) in IdeaFile[path: C:/Users/lucas_alves/MPSProjects/test/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.behavior.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
                 </presentation>
                 <presentation>
                   <attributes />
                   <data isLeaf="true" text="typesystem" />
-                  <item name="r:9f87ca7b-4461-4914-8b00-0e4dc22e6416(DAS_ML.typesystem) in IdeaFile[path: C:/Users/lucas_alves/Workspace/PhD/MPSProjects/drone_antecipated_scenario_model_language/languages/DAS_ML/models/DAS_ML.typesystem.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+                  <item name="r:9f87ca7b-4461-4914-8b00-0e4dc22e6416(DAS_ML.typesystem) in IdeaFile[path: C:/Users/lucas_alves/MPSProjects/test/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.typesystem.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
                 </presentation>
                 <presentation>
                   <attributes />
@@ -207,159 +341,7 @@
           </presentation>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="drone_antecipated_scenario_model_language" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\lucas_alves\Workspace\PhD\MPSProjects\drone_antecipated_scenario_model_language" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="drone_antecipated_scenario_model_language" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\lucas_alves\Workspace\PhD\MPSProjects\drone_antecipated_scenario_model_language" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="languages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="drone_antecipated_scenario_model_language" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\lucas_alves\Workspace\PhD\MPSProjects\drone_antecipated_scenario_model_language" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="languages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="DAS_ML" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-          <presentation>
-            <attributes />
-            <data iconPath="expui/runConfigurations/application.svg" iconPlugin="com.intellij" isLeaf="false" text="drone_antecipated_scenario_model_language" />
-            <item name="drone_antecipated_scenario_model_language" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-            <presentation>
-              <attributes>
-                <map>
-                  <entry key="filePath" value="$PROJECT_DIR$" />
-                </map>
-              </attributes>
-              <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="C:\Users\lucas_alves\Workspace\PhD\MPSProjects\drone_antecipated_scenario_model_language" />
-              <item name="C:\Users\lucas_alves\Workspace\PhD\MPSProjects\drone_antecipated_scenario_model_language" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <presentation>
-                <attributes>
-                  <map>
-                    <entry key="filePath" value="$PROJECT_DIR$/.mps" />
-                  </map>
-                </attributes>
-                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text=".mps" />
-                <item name=".mps" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              </presentation>
-              <presentation>
-                <attributes>
-                  <map>
-                    <entry key="filePath" value="$PROJECT_DIR$/languages" />
-                  </map>
-                </attributes>
-                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="languages" />
-                <item name="languages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-                <presentation>
-                  <attributes>
-                    <map>
-                      <entry key="filePath" value="$PROJECT_DIR$/languages/DAS_ML" />
-                    </map>
-                  </attributes>
-                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="DAS_ML" />
-                  <item name="DAS_ML" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/languages/DAS_ML/classes_gen" />
-                      </map>
-                    </attributes>
-                    <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="classes_gen" />
-                    <item name="classes_gen" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-                  </presentation>
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/languages/DAS_ML/generator" />
-                      </map>
-                    </attributes>
-                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="generator" />
-                    <item name="generator" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-                  </presentation>
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/languages/DAS_ML/models" />
-                      </map>
-                    </attributes>
-                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="models" />
-                    <item name="models" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-                  </presentation>
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/languages/DAS_ML/source_gen" />
-                      </map>
-                    </attributes>
-                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="source_gen" />
-                    <item name="source_gen" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-                  </presentation>
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/languages/DAS_ML/source_gen.caches" />
-                      </map>
-                    </attributes>
-                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="source_gen.caches" />
-                    <item name="source_gen.caches" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-                  </presentation>
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/languages/DAS_ML/DAS_ML.mpl" />
-                      </map>
-                    </attributes>
-                    <data iconPath="expUi/nodes/language.svg" iconPlugin="com.intellij" isLeaf="true" text="DAS_ML.mpl" />
-                    <item name="DAS_ML.mpl" type="ab9368bb:PsiFileNode" />
-                  </presentation>
-                </presentation>
-                <presentation>
-                  <attributes>
-                    <map>
-                      <entry key="filePath" value="$PROJECT_DIR$/languages/DAS_ML.runtime" />
-                    </map>
-                  </attributes>
-                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="DAS_ML.runtime" />
-                  <item name="DAS_ML.runtime" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-                </presentation>
-                <presentation>
-                  <attributes>
-                    <map>
-                      <entry key="filePath" value="$PROJECT_DIR$/languages/DAS_ML.sandbox" />
-                    </map>
-                  </attributes>
-                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="DAS_ML.sandbox" />
-                  <item name="DAS_ML.sandbox" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-                </presentation>
-              </presentation>
-              <presentation>
-                <attributes>
-                  <map>
-                    <entry key="filePath" value="$PROJECT_DIR$/.gitignore" />
-                  </map>
-                </attributes>
-                <data iconPath="expui/fileTypes/ignored.svg" iconPlugin="com.intellij" isLeaf="true" text=".gitignore" />
-                <item name=".gitignore" type="ab9368bb:PsiFileNode" />
-              </presentation>
-            </presentation>
-            <presentation>
-              <attributes>
-                <map>
-                  <entry key="filePath" value="$APPLICATION_CONFIG_DIR$/extensions" />
-                </map>
-              </attributes>
-              <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="Extensions" />
-              <item name="Extensions" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </presentation>
-          </presentation>
-        </subPane>
-      </pane>
+      <pane id="Scope" />
       <pane id="FileSystem" />
     </panes>
   </component>
@@ -372,7 +354,9 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.splitter.proportion": "0.28409094"
   }
 }]]></component>
   <component name="TaskManager">

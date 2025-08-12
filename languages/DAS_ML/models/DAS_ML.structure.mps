@@ -9,6 +9,16 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="3348158742936976480" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ng" index="25R33">
+        <property id="1421157252384165432" name="memberId" index="3tVfz5" />
+        <property id="672037151186491528" name="presentation" index="1L1pqM" />
+      </concept>
+      <concept id="3348158742936976479" name="jetbrains.mps.lang.structure.structure.EnumerationDeclaration" flags="ng" index="25R3W">
+        <child id="3348158742936976577" name="members" index="25R1y" />
+      </concept>
+      <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
+        <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
@@ -139,6 +149,11 @@
     <property role="3GE5qa" value="expressions.relational_expressions" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="7LNOydsMaZO" resolve="ConditionalExpression" />
+    <node concept="1TJgyi" id="7LNOydsMPZH" role="1TKVEl">
+      <property role="IQ2nx" value="8967742332347310061" />
+      <property role="TrG5h" value="relational_operator" />
+      <ref role="AX2Wp" node="7LNOydsMPZo" resolve="RelationalOperatorEnum" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7LNOydsMb01">
     <property role="EcuMT" value="8967742332347133953" />
@@ -189,9 +204,117 @@
   </node>
   <node concept="1TIwiD" id="7LNOydsMqpG">
     <property role="EcuMT" value="8967742332347197036" />
-    <property role="3GE5qa" value="expressions.relational_expressions" />
-    <property role="TrG5h" value="BatteryRelationalExpression" />
+    <property role="3GE5qa" value="expressions.relational_expressions.battery" />
+    <property role="TrG5h" value="BatteryCapacityRelationalExpression" />
     <ref role="1TJDcQ" node="7LNOydsMaZZ" resolve="RelationalExpression" />
+  </node>
+  <node concept="1TIwiD" id="7LNOydsMPYW">
+    <property role="EcuMT" value="8967742332347310012" />
+    <property role="3GE5qa" value="expressions.relational_expressions.battery" />
+    <property role="TrG5h" value="BatteryVoltageRelationalExpression" />
+    <ref role="1TJDcQ" node="7LNOydsMaZZ" resolve="RelationalExpression" />
+  </node>
+  <node concept="1TIwiD" id="7LNOydsMPZ0">
+    <property role="EcuMT" value="8967742332347310016" />
+    <property role="3GE5qa" value="expressions.relational_expressions.battery" />
+    <property role="TrG5h" value="BatteryCurrentRelationalExpression" />
+    <ref role="1TJDcQ" node="7LNOydsMaZZ" resolve="RelationalExpression" />
+  </node>
+  <node concept="1TIwiD" id="7LNOydsMPZ2">
+    <property role="EcuMT" value="8967742332347310018" />
+    <property role="3GE5qa" value="expressions.relational_expressions.battery" />
+    <property role="TrG5h" value="BatteryPercentageRelationalExpression" />
+    <ref role="1TJDcQ" node="7LNOydsMaZZ" resolve="RelationalExpression" />
+    <node concept="1TJgyi" id="7LNOydsMPZ7" role="1TKVEl">
+      <property role="IQ2nx" value="8967742332347310023" />
+      <property role="TrG5h" value="percentage" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7LNOydsMPZ4">
+    <property role="EcuMT" value="8967742332347310020" />
+    <property role="3GE5qa" value="expressions.relational_expressions.battery" />
+    <property role="TrG5h" value="BatteryStatusRelationalExpression" />
+    <ref role="1TJDcQ" node="7LNOydsMaZZ" resolve="RelationalExpression" />
+    <node concept="1TJgyi" id="7LNOydsMQ01" role="1TKVEl">
+      <property role="IQ2nx" value="8967742332347310081" />
+      <property role="TrG5h" value="status" />
+      <ref role="AX2Wp" node="7LNOydsMPZO" resolve="StatusEnum" />
+    </node>
+  </node>
+  <node concept="25R3W" id="7LNOydsMPZo">
+    <property role="3F6X1D" value="8967742332347310040" />
+    <property role="3GE5qa" value="expressions.relational_expressions" />
+    <property role="TrG5h" value="RelationalOperatorEnum" />
+    <node concept="25R33" id="7LNOydsMPZt" role="25R1y">
+      <property role="3tVfz5" value="8967742332347310045" />
+      <property role="TrG5h" value="EQUAL" />
+      <property role="1L1pqM" value="==" />
+    </node>
+    <node concept="25R33" id="7LNOydsMPZw" role="25R1y">
+      <property role="3tVfz5" value="8967742332347310048" />
+      <property role="TrG5h" value="NOT_EQUAL" />
+      <property role="1L1pqM" value="!=" />
+    </node>
+    <node concept="25R33" id="7LNOydsMPZy" role="25R1y">
+      <property role="3tVfz5" value="8967742332347310050" />
+      <property role="TrG5h" value="GREATER" />
+      <property role="1L1pqM" value="&gt;" />
+    </node>
+    <node concept="25R33" id="7LNOydsMPZ$" role="25R1y">
+      <property role="3tVfz5" value="8967742332347310052" />
+      <property role="TrG5h" value="GREATER_EQUAL" />
+      <property role="1L1pqM" value="&gt;=" />
+    </node>
+    <node concept="25R33" id="7LNOydsMPZA" role="25R1y">
+      <property role="3tVfz5" value="8967742332347310054" />
+      <property role="TrG5h" value="LESS" />
+      <property role="1L1pqM" value="&lt;" />
+    </node>
+    <node concept="25R33" id="7LNOydsMPZC" role="25R1y">
+      <property role="3tVfz5" value="8967742332347310056" />
+      <property role="TrG5h" value="LESS_EQUA" />
+      <property role="1L1pqM" value="&lt;=" />
+    </node>
+  </node>
+  <node concept="25R3W" id="7LNOydsMPZO">
+    <property role="3F6X1D" value="8967742332347310068" />
+    <property role="TrG5h" value="StatusEnum" />
+    <node concept="25R33" id="7LNOydsMPZP" role="25R1y">
+      <property role="3tVfz5" value="8967742332347310069" />
+      <property role="TrG5h" value="NORMAL" />
+      <property role="1L1pqM" value="NORMAL" />
+    </node>
+    <node concept="25R33" id="7LNOydsMPZT" role="25R1y">
+      <property role="3tVfz5" value="8967742332347310073" />
+      <property role="TrG5h" value="ERROR" />
+      <property role="1L1pqM" value="ERROR" />
+    </node>
+    <node concept="25R33" id="7LNOydsMPZU" role="25R1y">
+      <property role="3tVfz5" value="8967742332347310074" />
+      <property role="TrG5h" value="READY_TO_START" />
+      <property role="1L1pqM" value="READY_TO_START" />
+    </node>
+    <node concept="25R33" id="7LNOydsMPZW" role="25R1y">
+      <property role="3tVfz5" value="8967742332347310076" />
+      <property role="TrG5h" value="ACTIVATED" />
+      <property role="1L1pqM" value="ACTIVATED" />
+    </node>
+    <node concept="25R33" id="7LNOydsMPZX" role="25R1y">
+      <property role="3tVfz5" value="8967742332347310077" />
+      <property role="TrG5h" value="DEACTIVATED" />
+      <property role="1L1pqM" value="DEACTIVATED" />
+    </node>
+    <node concept="25R33" id="7LNOydsMPZY" role="25R1y">
+      <property role="3tVfz5" value="8967742332347310078" />
+      <property role="TrG5h" value="CALIBRATING" />
+      <property role="1L1pqM" value="CALIBRATING" />
+    </node>
+    <node concept="25R33" id="7LNOydsMPZZ" role="25R1y">
+      <property role="3tVfz5" value="8967742332347310079" />
+      <property role="TrG5h" value="NEED_CALIBRATION" />
+      <property role="1L1pqM" value="NEED_CALIBRATION" />
+    </node>
   </node>
 </model>
 
