@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/DAS_ML.runtime/DAS_ML.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/DAS_ML.sandbox/DAS_ML.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/DAS_ML/DAS_ML.mpl" folder="" />
+    </projectModules>
+  </component>
+</project>
