@@ -27,6 +27,7 @@
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
       <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
+      <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
@@ -97,6 +98,40 @@
               </node>
             </node>
           </node>
+        </node>
+      </node>
+    </node>
+    <node concept="EnEH3" id="3YlI0Oy9ge5" role="1MhHOB">
+      <ref role="EomxK" to="4jf8:7LNOydsMQ01" resolve="status" />
+      <node concept="QB0g5" id="3YlI0Oy9gfV" role="QCWH9">
+        <node concept="3clFbS" id="3YlI0Oy9gfW" role="2VODD2">
+          <node concept="3cpWs6" id="3YlI0Oy9glp" role="3cqZAp">
+            <node concept="22lmx$" id="3YlI0Oy9oZ1" role="3cqZAk">
+              <node concept="3clFbC" id="3YlI0Oy9pwA" role="3uHU7w">
+                <node concept="2OqwBi" id="3YlI0Oy9qll" role="3uHU7w">
+                  <node concept="1XH99k" id="3YlI0Oy9pxV" role="2Oq$k0">
+                    <ref role="1XH99l" to="4jf8:7LNOydsMPZO" resolve="StatusEnum" />
+                  </node>
+                  <node concept="2ViDtV" id="3YlI0Oy9qCu" role="2OqNvi">
+                    <ref role="2ViDtZ" to="4jf8:7LNOydsMPZP" resolve="NORMAL" />
+                  </node>
+                </node>
+                <node concept="1Wqviy" id="3YlI0Oy9peX" role="3uHU7B" />
+              </node>
+              <node concept="3clFbC" id="3YlI0Oy9gFZ" role="3uHU7B">
+                <node concept="1Wqviy" id="3YlI0Oy9gmr" role="3uHU7B" />
+                <node concept="2OqwBi" id="3YlI0Oy9mZy" role="3uHU7w">
+                  <node concept="1XH99k" id="3YlI0Oy9ml3" role="2Oq$k0">
+                    <ref role="1XH99l" to="4jf8:7LNOydsMPZO" resolve="StatusEnum" />
+                  </node>
+                  <node concept="2ViDtV" id="3YlI0Oy9nib" role="2OqNvi">
+                    <ref role="2ViDtZ" to="4jf8:7LNOydsMPZT" resolve="ERROR" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="3YlI0Oy9pde" role="3cqZAp" />
         </node>
       </node>
     </node>

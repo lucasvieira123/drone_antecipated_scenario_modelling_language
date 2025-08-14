@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1306b077-f2d9-4191-be0b-c5828dc6f6a4" name="Changes" comment="Created initial structure of DSL">
+      <change afterPath="$PROJECT_DIR$/languages/DAS_ML/source_gen/DAS_ML/editor/BatteryCurrentRelationalExpression_Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/DAS_ML/source_gen/DAS_ML/editor/BatteryCurrentRelationalExpression_EditorBuilder_a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/DAS_ML/source_gen/DAS_ML/editor/BatteryVoltageRelationalExpression_Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/DAS_ML/source_gen/DAS_ML/editor/BatteryVoltageRelationalExpression_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DAS_ML.sandbox/models/DAS_ML.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML.sandbox/models/DAS_ML.sandbox.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/DAS_ML/models/DAS_ML.constraints.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML/models/DAS_ML.constraints.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/DAS_ML/models/DAS_ML.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML/models/DAS_ML.editor.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/DAS_ML/models/DAS_ML.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML/models/DAS_ML.structure.mps" afterDir="false" />
@@ -20,7 +26,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="ce1ea6f6-ee95-414c-9617-2e6cf136159f/r:0073c8d0-f9fd-40cc-93b5-c8a5fce46b4b(TempModulece1ea6f6-ee95-414c-9617-2e6cf136159f/ConsoleModel_372235495057000)">
+            <model ref="bc28fef3-5597-4ced-9829-b78ecf86f2e3/r:aa7d6e09-a391-4505-9474-1ae1ca7b7e1a(TempModulebc28fef3-5597-4ced-9829-b78ecf86f2e3/ConsoleModel_606290611469)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -40,11 +46,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="7LNOydsMNrO">
-                <node concept="3balQm" id="7LNOydsMNrP" role="aymYE" />
-                <node concept="2Clz$F" id="7LNOydsMNrQ" role="aymYO" />
-                <node concept="2_V_lH" id="7LNOydsMNrR" role="1PhJh3">
-                  <ref role="2_V_lI" node="7LNOydsMNrQ" />
+              <node concept="aymSD" id="3YlI0Oy8O33">
+                <node concept="3balQm" id="3YlI0Oy8O34" role="aymYE" />
+                <node concept="2Clz$F" id="3YlI0Oy8O35" role="aymYO" />
+                <node concept="2_V_lH" id="3YlI0Oy8O36" role="1PhJh3">
+                  <ref role="2_V_lI" node="3YlI0Oy8O35" />
                 </node>
               </node>
             </model>
@@ -69,18 +75,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "lucasvieira123"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lucasvieira123&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/lucasvieira123/drone_antecipated_scenario_modelling_language.git",
-    "accountId": "ba019baa-d8fa-4533-a368-775146073ed3"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/lucasvieira123/drone_antecipated_scenario_modelling_language.git&quot;,
+    &quot;accountId&quot;: &quot;001b311a-ba68-4dd8-afaf-5aa9abe35056&quot;
   }
-}]]></component>
+}</component>
   <component name="MPSBookmarkManager">
     <option name="myBookmarkInfos">
       <array>
@@ -145,26 +151,44 @@
             <path>
               <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
               <item name="MPS Project [drone_antecipated_scenario_modelling_language] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="DAS_ML.sandbox [solution]" type="97b3832:SolutionProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [drone_antecipated_scenario_modelling_language] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="DAS_ML.sandbox [solution]" type="97b3832:SolutionProjectViewNode" />
+              <item name="'DAS_ML'" type="3ff8ed02:BaseVirtualFolderProjectViewNode$ModelsVirtualFolderProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [drone_antecipated_scenario_modelling_language] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="DAS_ML.sandbox [solution]" type="97b3832:SolutionProjectViewNode" />
+              <item name="'DAS_ML'" type="3ff8ed02:BaseVirtualFolderProjectViewNode$ModelsVirtualFolderProjectViewNode" />
+              <item name="r:a3b1f6c1-faea-48de-999d-8b7b6858baa2(DAS_ML.sandbox) in IdeaFile[path: /home/luis-gustavo/MPSProjects/drone_antecipated_scenario_modelling_language/languages/DAS_ML.sandbox/models/DAS_ML.sandbox.mps]" type="150f8c45:ModelHierarchyProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [drone_antecipated_scenario_modelling_language] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
               <item name="DAS_ML [language]" type="cd46e9f6:LanguageProjectViewNode" />
             </path>
             <path>
               <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
               <item name="MPS Project [drone_antecipated_scenario_modelling_language] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
               <item name="DAS_ML [language]" type="cd46e9f6:LanguageProjectViewNode" />
-              <item name="r:356976db-ed45-449a-b8b5-b0d06c4a39c5(DAS_ML.structure) in IdeaFile[path: C:/Users/lucas_alves/MPSProjects/test/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.structure.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+              <item name="r:356976db-ed45-449a-b8b5-b0d06c4a39c5(DAS_ML.structure) in IdeaFile[path: /home/luis-gustavo/MPSProjects/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.structure.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
             </path>
             <path>
               <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
               <item name="MPS Project [drone_antecipated_scenario_modelling_language] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
               <item name="DAS_ML [language]" type="cd46e9f6:LanguageProjectViewNode" />
-              <item name="r:356976db-ed45-449a-b8b5-b0d06c4a39c5(DAS_ML.structure) in IdeaFile[path: C:/Users/lucas_alves/MPSProjects/test/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.structure.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+              <item name="r:356976db-ed45-449a-b8b5-b0d06c4a39c5(DAS_ML.structure) in IdeaFile[path: /home/luis-gustavo/MPSProjects/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.structure.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
               <item name="'expressions'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
             </path>
             <path>
               <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
               <item name="MPS Project [drone_antecipated_scenario_modelling_language] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
               <item name="DAS_ML [language]" type="cd46e9f6:LanguageProjectViewNode" />
-              <item name="r:356976db-ed45-449a-b8b5-b0d06c4a39c5(DAS_ML.structure) in IdeaFile[path: C:/Users/lucas_alves/MPSProjects/test/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.structure.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+              <item name="r:356976db-ed45-449a-b8b5-b0d06c4a39c5(DAS_ML.structure) in IdeaFile[path: /home/luis-gustavo/MPSProjects/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.structure.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
               <item name="'expressions'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
               <item name="'expressions.relational_expressions'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
             </path>
@@ -172,9 +196,34 @@
               <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
               <item name="MPS Project [drone_antecipated_scenario_modelling_language] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
               <item name="DAS_ML [language]" type="cd46e9f6:LanguageProjectViewNode" />
-              <item name="r:356976db-ed45-449a-b8b5-b0d06c4a39c5(DAS_ML.structure) in IdeaFile[path: C:/Users/lucas_alves/MPSProjects/test/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.structure.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+              <item name="r:32c34070-4ae1-455b-948f-5b258efba2b0(DAS_ML.editor) in IdeaFile[path: /home/luis-gustavo/MPSProjects/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.editor.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [drone_antecipated_scenario_modelling_language] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="DAS_ML [language]" type="cd46e9f6:LanguageProjectViewNode" />
+              <item name="r:32c34070-4ae1-455b-948f-5b258efba2b0(DAS_ML.editor) in IdeaFile[path: /home/luis-gustavo/MPSProjects/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.editor.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
               <item name="'expressions'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
-              <item name="'expressions.relational_expressions'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [drone_antecipated_scenario_modelling_language] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="DAS_ML [language]" type="cd46e9f6:LanguageProjectViewNode" />
+              <item name="r:32c34070-4ae1-455b-948f-5b258efba2b0(DAS_ML.editor) in IdeaFile[path: /home/luis-gustavo/MPSProjects/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.editor.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+              <item name="'expressions'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+              <item name="'expressions.relational_expressions.battery'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [drone_antecipated_scenario_modelling_language] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="DAS_ML [language]" type="cd46e9f6:LanguageProjectViewNode" />
+              <item name="r:f7cd2215-0bd5-4435-a8f7-5ce614951a13(DAS_ML.constraints) in IdeaFile[path: /home/luis-gustavo/MPSProjects/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.constraints.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [drone_antecipated_scenario_modelling_language] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="DAS_ML [language]" type="cd46e9f6:LanguageProjectViewNode" />
+              <item name="r:f7cd2215-0bd5-4435-a8f7-5ce614951a13(DAS_ML.constraints) in IdeaFile[path: /home/luis-gustavo/MPSProjects/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.constraints.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
               <item name="'expressions.relational_expressions.battery'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
             </path>
           </expand>
@@ -196,6 +245,21 @@
                 <attributes />
                 <data iconPath="expUi/nodes/solution.svg" iconPlugin="com.intellij" isLeaf="false" text="DAS_ML.sandbox" />
                 <item name="DAS_ML.sandbox [solution]" type="97b3832:SolutionProjectViewNode" />
+                <presentation>
+                  <attributes />
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="DAS_ML" />
+                  <item name="'DAS_ML'" type="3ff8ed02:BaseVirtualFolderProjectViewNode$ModelsVirtualFolderProjectViewNode" />
+                  <presentation>
+                    <attributes />
+                    <data iconPath="expUi/nodes/model.svg" iconPlugin="com.intellij" isLeaf="false" text="" />
+                    <item name="r:a3b1f6c1-faea-48de-999d-8b7b6858baa2(DAS_ML.sandbox) in IdeaFile[path: /home/luis-gustavo/MPSProjects/drone_antecipated_scenario_modelling_language/languages/DAS_ML.sandbox/models/DAS_ML.sandbox.mps]" type="150f8c45:ModelHierarchyProjectViewNode" />
+                    <presentation>
+                      <attributes />
+                      <data iconPath="expUi/nodes/rootNode.svg" iconPlugin="com.intellij" isLeaf="true" text="&lt;no name&gt;[HighAntecipatedScenarios]" />
+                      <item name="(instance of HighAntecipatedScenarios)" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                    </presentation>
+                  </presentation>
+                </presentation>
               </presentation>
               <presentation>
                 <attributes />
@@ -204,7 +268,7 @@
                 <presentation>
                   <attributes />
                   <data isLeaf="false" text="structure" />
-                  <item name="r:356976db-ed45-449a-b8b5-b0d06c4a39c5(DAS_ML.structure) in IdeaFile[path: C:/Users/lucas_alves/MPSProjects/test/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.structure.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+                  <item name="r:356976db-ed45-449a-b8b5-b0d06c4a39c5(DAS_ML.structure) in IdeaFile[path: /home/luis-gustavo/MPSProjects/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.structure.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
                   <presentation>
                     <attributes />
                     <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="expressions" />
@@ -227,31 +291,6 @@
                         <attributes />
                         <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="battery" />
                         <item name="'expressions.relational_expressions.battery'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
-                        <presentation>
-                          <attributes />
-                          <data isLeaf="true" text="BatteryCapacityRelationalExpression" />
-                          <item name="BatteryCapacityRelationalExpression" type="dedc1bdc:SimpleNodeProjectViewNode" />
-                        </presentation>
-                        <presentation>
-                          <attributes />
-                          <data isLeaf="true" text="BatteryCurrentRelationalExpression" />
-                          <item name="BatteryCurrentRelationalExpression" type="dedc1bdc:SimpleNodeProjectViewNode" />
-                        </presentation>
-                        <presentation>
-                          <attributes />
-                          <data isLeaf="true" text="BatteryPercentageRelationalExpression" />
-                          <item name="BatteryPercentageRelationalExpression" type="dedc1bdc:SimpleNodeProjectViewNode" />
-                        </presentation>
-                        <presentation>
-                          <attributes />
-                          <data isLeaf="true" text="BatteryStatusRelationalExpression" />
-                          <item name="BatteryStatusRelationalExpression" type="dedc1bdc:SimpleNodeProjectViewNode" />
-                        </presentation>
-                        <presentation>
-                          <attributes />
-                          <data isLeaf="true" text="BatteryVoltageRelationalExpression" />
-                          <item name="BatteryVoltageRelationalExpression" type="dedc1bdc:SimpleNodeProjectViewNode" />
-                        </presentation>
                       </presentation>
                       <presentation>
                         <attributes />
@@ -294,22 +333,82 @@
                 <presentation>
                   <attributes />
                   <data isLeaf="false" text="editor" />
-                  <item name="r:32c34070-4ae1-455b-948f-5b258efba2b0(DAS_ML.editor) in IdeaFile[path: C:/Users/lucas_alves/MPSProjects/test/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.editor.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+                  <item name="r:32c34070-4ae1-455b-948f-5b258efba2b0(DAS_ML.editor) in IdeaFile[path: /home/luis-gustavo/MPSProjects/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.editor.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+                  <presentation>
+                    <attributes />
+                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="expressions" />
+                    <item name="'expressions'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+                    <presentation>
+                      <attributes />
+                      <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="logical_expressions" />
+                      <item name="'expressions.logical_expressions'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes />
+                      <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="relational_expressions.battery" />
+                      <item name="'expressions.relational_expressions.battery'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+                      <presentation>
+                        <attributes />
+                        <data isLeaf="true" text="BatteryCapacityRelationalExpression_Editor" />
+                        <item name="(instance of ConceptEditorDeclaration)" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes />
+                        <data isLeaf="true" text="BatteryCurrentRelationalExpression_Editor" />
+                        <item name="(instance of ConceptEditorDeclaration)" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes />
+                        <data isLeaf="true" text="BatteryPercentageRelationalExpression_Editor" />
+                        <item name="(instance of ConceptEditorDeclaration)" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes />
+                        <data isLeaf="true" text="BatteryStatusRelationalExpression_Editor" />
+                        <item name="(instance of ConceptEditorDeclaration)" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes />
+                        <data isLeaf="true" text="BatteryVoltageRelationalExpression_Editor" />
+                        <item name="(instance of ConceptEditorDeclaration)" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                      </presentation>
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes />
+                    <data isLeaf="true" text="DroneAntecipatedScenario_Editor" />
+                    <item name="(instance of ConceptEditorDeclaration)" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes />
+                    <data isLeaf="true" text="HighAntecipatedScenarios_Editor" />
+                    <item name="(instance of ConceptEditorDeclaration)" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                  </presentation>
                 </presentation>
                 <presentation>
                   <attributes />
                   <data isLeaf="false" text="constraints" />
-                  <item name="r:f7cd2215-0bd5-4435-a8f7-5ce614951a13(DAS_ML.constraints) in IdeaFile[path: C:/Users/lucas_alves/MPSProjects/test/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.constraints.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+                  <item name="r:f7cd2215-0bd5-4435-a8f7-5ce614951a13(DAS_ML.constraints) in IdeaFile[path: /home/luis-gustavo/MPSProjects/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.constraints.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+                  <presentation>
+                    <attributes />
+                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="expressions.relational_expressions.battery" />
+                    <item name="'expressions.relational_expressions.battery'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+                    <presentation>
+                      <attributes />
+                      <data isLeaf="true" text="BatteryStatusRelationalExpression_Constraints" />
+                      <item name="(instance of ConceptConstraints)" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                    </presentation>
+                  </presentation>
                 </presentation>
                 <presentation>
                   <attributes />
                   <data isLeaf="true" text="behavior" />
-                  <item name="r:4cb56647-79a2-4f5e-a406-c154b66e37e4(DAS_ML.behavior) in IdeaFile[path: C:/Users/lucas_alves/MPSProjects/test/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.behavior.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+                  <item name="r:4cb56647-79a2-4f5e-a406-c154b66e37e4(DAS_ML.behavior) in IdeaFile[path: /home/luis-gustavo/MPSProjects/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.behavior.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
                 </presentation>
                 <presentation>
                   <attributes />
                   <data isLeaf="true" text="typesystem" />
-                  <item name="r:9f87ca7b-4461-4914-8b00-0e4dc22e6416(DAS_ML.typesystem) in IdeaFile[path: C:/Users/lucas_alves/MPSProjects/test/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.typesystem.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+                  <item name="r:9f87ca7b-4461-4914-8b00-0e4dc22e6416(DAS_ML.typesystem) in IdeaFile[path: /home/luis-gustavo/MPSProjects/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.typesystem.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
                 </presentation>
                 <presentation>
                   <attributes />
@@ -349,16 +448,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "settings.editor.splitter.proportion": "0.28409094"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.28409094&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1306b077-f2d9-4191-be0b-c5828dc6f6a4" name="Changes" comment="" />

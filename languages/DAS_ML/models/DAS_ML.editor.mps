@@ -154,8 +154,23 @@
     <property role="3GE5qa" value="expressions.relational_expressions.battery" />
     <ref role="1XX52x" to="4jf8:7LNOydsMqpG" resolve="BatteryCapacityRelationalExpression" />
     <node concept="3EZMnI" id="7LNOydsMqpJ" role="2wV5jI">
-      <node concept="3F0ifn" id="7LNOydsMqpP" role="3EZMnx">
-        <property role="3F0ifm" value="Bateria Test" />
+      <node concept="3F0ifn" id="3YlI0Oy9fHj" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+      </node>
+      <node concept="3F0ifn" id="3YlI0Oy9fHo" role="3EZMnx">
+        <property role="3F0ifm" value="Battery.capacity" />
+      </node>
+      <node concept="3F0A7n" id="3YlI0Oy9fHr" role="3EZMnx">
+        <ref role="1NtTu8" to="4jf8:7LNOydsMPZH" resolve="relational_operator" />
+      </node>
+      <node concept="3F0A7n" id="3YlI0Oy9fHu" role="3EZMnx">
+        <ref role="1NtTu8" to="4jf8:3YlI0Oy9fHg" resolve="capacity" />
+      </node>
+      <node concept="3F0ifn" id="3YlI0Oy9fHx" role="3EZMnx">
+        <property role="3F0ifm" value="amperes" />
+      </node>
+      <node concept="3F0ifn" id="3YlI0Oy9fRN" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
       </node>
       <node concept="2iRfu4" id="7LNOydsMqpM" role="2iSdaV" />
     </node>
@@ -205,6 +220,56 @@
       <node concept="3F0ifn" id="7LNOydsMQ0r" role="3EZMnx">
         <property role="3F0ifm" value=")" />
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="3YlI0Oy8OiQ">
+    <property role="3GE5qa" value="expressions.relational_expressions.battery" />
+    <ref role="1XX52x" to="4jf8:7LNOydsMPYW" resolve="BatteryVoltageRelationalExpression" />
+    <node concept="3EZMnI" id="3YlI0Oy8OiS" role="2wV5jI">
+      <node concept="3F0ifn" id="3YlI0Oy8TST" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+      </node>
+      <node concept="3F0ifn" id="3YlI0Oy8OiX" role="3EZMnx">
+        <property role="3F0ifm" value="Battery.voltage" />
+      </node>
+      <node concept="3F0A7n" id="3YlI0Oy8Oj1" role="3EZMnx">
+        <ref role="1NtTu8" to="4jf8:7LNOydsMPZH" resolve="relational_operator" />
+      </node>
+      <node concept="3F0A7n" id="3YlI0Oy8Oj4" role="3EZMnx">
+        <ref role="1NtTu8" to="4jf8:3YlI0Oy8OiN" resolve="voltage" />
+      </node>
+      <node concept="3F0ifn" id="3YlI0Oy8Oj7" role="3EZMnx">
+        <property role="3F0ifm" value="volt" />
+      </node>
+      <node concept="3F0ifn" id="3YlI0Oy8TSW" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+      </node>
+      <node concept="2iRfu4" id="3YlI0Oy8OiV" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3YlI0Oy9fRU">
+    <property role="3GE5qa" value="expressions.relational_expressions.battery" />
+    <ref role="1XX52x" to="4jf8:7LNOydsMPZ0" resolve="BatteryCurrentRelationalExpression" />
+    <node concept="3EZMnI" id="3YlI0Oy9fRZ" role="2wV5jI">
+      <node concept="3F0ifn" id="3YlI0Oy9fS3" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+      </node>
+      <node concept="3F0ifn" id="3YlI0Oy9fS8" role="3EZMnx">
+        <property role="3F0ifm" value="Battery.current" />
+      </node>
+      <node concept="3F0A7n" id="3YlI0Oy9fSb" role="3EZMnx">
+        <ref role="1NtTu8" to="4jf8:7LNOydsMPZH" resolve="relational_operator" />
+      </node>
+      <node concept="3F0A7n" id="3YlI0Oy9fSg" role="3EZMnx">
+        <ref role="1NtTu8" to="4jf8:3YlI0Oy9fRQ" resolve="current" />
+      </node>
+      <node concept="3F0ifn" id="3YlI0Oy9fSl" role="3EZMnx">
+        <property role="3F0ifm" value="amperes" />
+      </node>
+      <node concept="3F0ifn" id="3YlI0Oy9fSo" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+      </node>
+      <node concept="2iRfu4" id="3YlI0Oy9fS2" role="2iSdaV" />
     </node>
   </node>
 </model>

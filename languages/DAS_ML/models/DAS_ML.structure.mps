@@ -207,18 +207,33 @@
     <property role="3GE5qa" value="expressions.relational_expressions.battery" />
     <property role="TrG5h" value="BatteryCapacityRelationalExpression" />
     <ref role="1TJDcQ" node="7LNOydsMaZZ" resolve="RelationalExpression" />
+    <node concept="1TJgyi" id="3YlI0Oy9fHg" role="1TKVEl">
+      <property role="IQ2nx" value="4581770562466282320" />
+      <property role="TrG5h" value="capacity" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7LNOydsMPYW">
     <property role="EcuMT" value="8967742332347310012" />
     <property role="3GE5qa" value="expressions.relational_expressions.battery" />
     <property role="TrG5h" value="BatteryVoltageRelationalExpression" />
     <ref role="1TJDcQ" node="7LNOydsMaZZ" resolve="RelationalExpression" />
+    <node concept="1TJgyi" id="3YlI0Oy8OiN" role="1TKVEl">
+      <property role="IQ2nx" value="4581770562466170035" />
+      <property role="TrG5h" value="voltage" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7LNOydsMPZ0">
     <property role="EcuMT" value="8967742332347310016" />
     <property role="3GE5qa" value="expressions.relational_expressions.battery" />
     <property role="TrG5h" value="BatteryCurrentRelationalExpression" />
     <ref role="1TJDcQ" node="7LNOydsMaZZ" resolve="RelationalExpression" />
+    <node concept="1TJgyi" id="3YlI0Oy9fRQ" role="1TKVEl">
+      <property role="IQ2nx" value="4581770562466282998" />
+      <property role="TrG5h" value="current" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7LNOydsMPZ2">
     <property role="EcuMT" value="8967742332347310018" />
