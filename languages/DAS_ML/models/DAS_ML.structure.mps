@@ -331,5 +331,100 @@
       <property role="1L1pqM" value="NEED_CALIBRATION" />
     </node>
   </node>
+  <node concept="1TIwiD" id="6iu2WjIgsgp">
+    <property role="EcuMT" value="7250245390551860249" />
+    <property role="3GE5qa" value="expressions.relational_expressions.UAV" />
+    <property role="TrG5h" value="UAVManeuverDirectionRelationalExpression" />
+    <ref role="1TJDcQ" node="7LNOydsMaZZ" resolve="RelationalExpression" />
+    <node concept="1TJgyi" id="6iu2WjIgsgN" role="1TKVEl">
+      <property role="IQ2nx" value="7250245390551860275" />
+      <property role="TrG5h" value="direction" />
+      <ref role="AX2Wp" node="6iu2WjIgsgP" resolve="DirectionEnum" />
+    </node>
+  </node>
+  <node concept="25R3W" id="6iu2WjIgsgP">
+    <property role="3F6X1D" value="7250245390551860277" />
+    <property role="TrG5h" value="DirectionEnum" />
+    <node concept="25R33" id="6iu2WjIgsgQ" role="25R1y">
+      <property role="3tVfz5" value="7250245390551860278" />
+      <property role="TrG5h" value="NORTH" />
+      <property role="1L1pqM" value="NORTH" />
+    </node>
+    <node concept="25R33" id="6iu2WjIgsgS" role="25R1y">
+      <property role="3tVfz5" value="7250245390551860280" />
+      <property role="TrG5h" value="SOUTH" />
+      <property role="1L1pqM" value="SOUTH" />
+    </node>
+    <node concept="25R33" id="6iu2WjIgsgU" role="25R1y">
+      <property role="3tVfz5" value="7250245390551860282" />
+      <property role="TrG5h" value="EAST" />
+      <property role="1L1pqM" value="EAST" />
+    </node>
+    <node concept="25R33" id="6iu2WjIgsgW" role="25R1y">
+      <property role="3tVfz5" value="7250245390551860284" />
+      <property role="TrG5h" value="WEST" />
+      <property role="1L1pqM" value="WEST" />
+    </node>
+    <node concept="25R33" id="6iu2WjIgsgZ" role="25R1y">
+      <property role="3tVfz5" value="7250245390551860287" />
+      <property role="TrG5h" value="NORTH_EAST" />
+      <property role="1L1pqM" value="NORTH_EAST" />
+    </node>
+    <node concept="25R33" id="6iu2WjIgsh1" role="25R1y">
+      <property role="3tVfz5" value="7250245390551860289" />
+      <property role="TrG5h" value="SOUTH_EAST" />
+      <property role="1L1pqM" value="SOUTH_EAST" />
+    </node>
+    <node concept="25R33" id="6iu2WjIgsh3" role="25R1y">
+      <property role="3tVfz5" value="7250245390551860291" />
+      <property role="TrG5h" value="NORTH_WEST" />
+      <property role="1L1pqM" value="NORTH_WEST" />
+    </node>
+    <node concept="25R33" id="6iu2WjIgsh4" role="25R1y">
+      <property role="3tVfz5" value="7250245390551860292" />
+      <property role="TrG5h" value="SOUTH_WEST" />
+      <property role="1L1pqM" value="SOUTH_WEST" />
+    </node>
+  </node>
+  <node concept="25R3W" id="6iu2WjIh9hc">
+    <property role="3F6X1D" value="7250245390552044620" />
+    <property role="TrG5h" value="RelativePositionEnum" />
+    <node concept="25R33" id="6iu2WjIh9hd" role="25R1y">
+      <property role="3tVfz5" value="7250245390552044621" />
+      <property role="TrG5h" value="OBSTACLE" />
+      <property role="1L1pqM" value="OBSTACLE" />
+    </node>
+    <node concept="25R33" id="6iu2WjIh9hf" role="25R1y">
+      <property role="3tVfz5" value="7250245390552044623" />
+      <property role="TrG5h" value="DESTINATION" />
+      <property role="1L1pqM" value="DESTINATION" />
+    </node>
+    <node concept="25R33" id="6iu2WjIh9hh" role="25R1y">
+      <property role="3tVfz5" value="7250245390552044625" />
+      <property role="TrG5h" value="ORIGIN" />
+      <property role="1L1pqM" value="ORIGIN" />
+    </node>
+    <node concept="25R33" id="6iu2WjIh9hk" role="25R1y">
+      <property role="3tVfz5" value="7250245390552044628" />
+      <property role="TrG5h" value="WATER" />
+      <property role="1L1pqM" value="WATER" />
+    </node>
+    <node concept="25R33" id="6iu2WjIh9ho" role="25R1y">
+      <property role="3tVfz5" value="7250245390552044632" />
+      <property role="TrG5h" value="LAND" />
+      <property role="1L1pqM" value="LAND" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6iu2WjIh9ht">
+    <property role="EcuMT" value="7250245390552044637" />
+    <property role="3GE5qa" value="expressions.relational_expressions.UAV" />
+    <property role="TrG5h" value="UAVManeuverDirectionToRegionRelationalExpression" />
+    <ref role="1TJDcQ" node="7LNOydsMaZZ" resolve="RelationalExpression" />
+    <node concept="1TJgyi" id="6iu2WjIh9hu" role="1TKVEl">
+      <property role="IQ2nx" value="7250245390552044638" />
+      <property role="TrG5h" value="direction" />
+      <ref role="AX2Wp" node="6iu2WjIh9hc" resolve="RelativePositionEnum" />
+    </node>
+  </node>
 </model>
 

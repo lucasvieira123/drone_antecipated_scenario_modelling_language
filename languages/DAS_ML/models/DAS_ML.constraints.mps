@@ -136,5 +136,66 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="6iu2WjIgUH_">
+    <property role="3GE5qa" value="expressions.relational_expressions.UAV" />
+    <ref role="1M2myG" to="4jf8:6iu2WjIgsgp" resolve="UAVManeuverDirectionRelationalExpression" />
+    <node concept="EnEH3" id="6iu2WjIgUXB" role="1MhHOB">
+      <ref role="EomxK" to="4jf8:7LNOydsMPZH" resolve="relational_operator" />
+      <node concept="QB0g5" id="6iu2WjIgUYQ" role="QCWH9">
+        <node concept="3clFbS" id="6iu2WjIgUYR" role="2VODD2">
+          <node concept="3cpWs6" id="6iu2WjIgW4w" role="3cqZAp">
+            <node concept="22lmx$" id="6iu2WjIgW4x" role="3cqZAk">
+              <node concept="3clFbC" id="6iu2WjIgW4y" role="3uHU7B">
+                <node concept="1Wqviy" id="6iu2WjIgW4z" role="3uHU7B" />
+                <node concept="2OqwBi" id="6iu2WjIgW4$" role="3uHU7w">
+                  <node concept="1XH99k" id="6iu2WjIgW4_" role="2Oq$k0">
+                    <ref role="1XH99l" to="4jf8:7LNOydsMPZo" resolve="RelationalOperatorEnum" />
+                  </node>
+                  <node concept="2ViDtV" id="6iu2WjIgW4A" role="2OqNvi">
+                    <ref role="2ViDtZ" to="4jf8:7LNOydsMPZt" resolve="EQUAL" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbC" id="6iu2WjIgW4B" role="3uHU7w">
+                <node concept="1Wqviy" id="6iu2WjIgW4C" role="3uHU7B" />
+                <node concept="2OqwBi" id="6iu2WjIgW4D" role="3uHU7w">
+                  <node concept="1XH99k" id="6iu2WjIgW4E" role="2Oq$k0">
+                    <ref role="1XH99l" to="4jf8:7LNOydsMPZo" resolve="RelationalOperatorEnum" />
+                  </node>
+                  <node concept="2ViDtV" id="6iu2WjIgW4F" role="2OqNvi">
+                    <ref role="2ViDtZ" to="4jf8:7LNOydsMPZw" resolve="NOT_EQUAL" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="6iu2WjIh9hX">
+    <property role="3GE5qa" value="expressions.relational_expressions.UAV" />
+    <ref role="1M2myG" to="4jf8:6iu2WjIh9ht" resolve="UAVManeuverDirectionToRegionRelationalExpression" />
+    <node concept="EnEH3" id="6iu2WjIh9u_" role="1MhHOB">
+      <ref role="EomxK" to="4jf8:7LNOydsMPZH" resolve="relational_operator" />
+      <node concept="QB0g5" id="6iu2WjIh9uA" role="QCWH9">
+        <node concept="3clFbS" id="6iu2WjIh9uB" role="2VODD2">
+          <node concept="3cpWs6" id="6iu2WjIh9uC" role="3cqZAp">
+            <node concept="3clFbC" id="6iu2WjIh9uE" role="3cqZAk">
+              <node concept="1Wqviy" id="6iu2WjIh9uF" role="3uHU7B" />
+              <node concept="2OqwBi" id="6iu2WjIh9uG" role="3uHU7w">
+                <node concept="1XH99k" id="6iu2WjIh9uH" role="2Oq$k0">
+                  <ref role="1XH99l" to="4jf8:7LNOydsMPZo" resolve="RelationalOperatorEnum" />
+                </node>
+                <node concept="2ViDtV" id="6iu2WjIh9uI" role="2OqNvi">
+                  <ref role="2ViDtZ" to="4jf8:7LNOydsMPZt" resolve="EQUAL" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

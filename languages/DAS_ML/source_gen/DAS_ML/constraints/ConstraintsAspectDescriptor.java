@@ -20,9 +20,13 @@ public class ConstraintsAspectDescriptor extends BaseConstraintsAspectDescriptor
     switch (conceptIndex.index(cncpt)) {
       case 0:
         return new BatteryStatusRelationalExpression_Constraints();
+      case 1:
+        return new UAVManeuverDirectionRelationalExpression_Constraints();
+      case 2:
+        return new UAVManeuverDirectionToRegionRelationalExpression_Constraints();
       default:
     }
     return new BaseConstraintsDescriptor(concept);
   }
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0xb5193d0ff2e3489fL, 0x8a11cbd304ed9c53L, 0x7c73d2235ccb5fc4L)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0xb5193d0ff2e3489fL, 0x8a11cbd304ed9c53L, 0x7c73d2235ccb5fc4L), MetaIdFactory.conceptId(0xb5193d0ff2e3489fL, 0x8a11cbd304ed9c53L, 0x649e0bc4ee41c419L), MetaIdFactory.conceptId(0xb5193d0ff2e3489fL, 0x8a11cbd304ed9c53L, 0x649e0bc4ee44945dL)).seal();
 }

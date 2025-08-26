@@ -23,6 +23,8 @@ public final class LanguageConceptSwitch {
   public static final int LogicalExpression = 11;
   public static final int OrLogicalExpression = 12;
   public static final int RelationalExpression = 13;
+  public static final int UAVManeuverDirectionRelationalExpression = 14;
+  public static final int UAVManeuverDirectionToRegionRelationalExpression = 15;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0xb5193d0ff2e3489fL, 0x8a11cbd304ed9c53L);
@@ -40,6 +42,8 @@ public final class LanguageConceptSwitch {
     builder.put(0x7c73d2235cc8b001L, LogicalExpression);
     builder.put(0x7c73d2235cc8b004L, OrLogicalExpression);
     builder.put(0x7c73d2235cc8afffL, RelationalExpression);
+    builder.put(0x649e0bc4ee41c419L, UAVManeuverDirectionRelationalExpression);
+    builder.put(0x649e0bc4ee44945dL, UAVManeuverDirectionToRegionRelationalExpression);
     myIndex = builder.seal();
   }
 

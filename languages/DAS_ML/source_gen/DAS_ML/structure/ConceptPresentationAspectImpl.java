@@ -23,6 +23,8 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_LogicalExpression;
   private ConceptPresentation props_OrLogicalExpression;
   private ConceptPresentation props_RelationalExpression;
+  private ConceptPresentation props_UAVManeuverDirectionRelationalExpression;
+  private ConceptPresentation props_UAVManeuverDirectionToRegionRelationalExpression;
 
   @Override
   @Nullable
@@ -124,6 +126,20 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_RelationalExpression = cpb.create();
         }
         return props_RelationalExpression;
+      case LanguageConceptSwitch.UAVManeuverDirectionRelationalExpression:
+        if (props_UAVManeuverDirectionRelationalExpression == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("UAVManeuverDirectionRelationalExpression");
+          props_UAVManeuverDirectionRelationalExpression = cpb.create();
+        }
+        return props_UAVManeuverDirectionRelationalExpression;
+      case LanguageConceptSwitch.UAVManeuverDirectionToRegionRelationalExpression:
+        if (props_UAVManeuverDirectionToRegionRelationalExpression == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("UAVManeuverDirectionToRegionRelationalExpression");
+          props_UAVManeuverDirectionToRegionRelationalExpression = cpb.create();
+        }
+        return props_UAVManeuverDirectionToRegionRelationalExpression;
     }
     return null;
   }

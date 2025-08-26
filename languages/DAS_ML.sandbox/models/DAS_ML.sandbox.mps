@@ -7,13 +7,14 @@
   <imports />
   <registry>
     <language id="b5193d0f-f2e3-489f-8a11-cbd304ed9c53" name="DAS_ML">
-      <concept id="8967742332347310020" name="DAS_ML.structure.BatteryStatusRelationalExpression" flags="ng" index="wI8RB">
-        <property id="8967742332347310081" name="status" index="wIb8y" />
+      <concept id="7250245390552044637" name="DAS_ML.structure.UAVManeuverDirectionToRegionRelationalExpression" flags="ng" index="2aQDYp">
+        <property id="7250245390552044638" name="direction" index="2aQDYq" />
       </concept>
       <concept id="8967742332347133930" name="DAS_ML.structure.HighAntecipatedScenarios" flags="ng" index="wIRR9">
         <child id="8967742332347133931" name="droneAntecipatedScenario" index="wIRR8" />
       </concept>
       <concept id="8967742332347133932" name="DAS_ML.structure.DroneAntecipatedScenario" flags="ng" index="wIRRf">
+        <property id="8967742332347133933" name="name" index="wIRRe" />
         <child id="8967742332347133935" name="given" index="wIRRc" />
         <child id="8967742332347133938" name="then" index="wIRRh" />
         <child id="8967742332347133937" name="do" index="wIRRi" />
@@ -28,12 +29,13 @@
   </registry>
   <node concept="wIRR9" id="7LNOydsMAJl">
     <node concept="wIRRf" id="3YlI0Oy8OiI" role="wIRR8">
+      <property role="wIRRe" value="ds" />
       <node concept="wIRRn" id="3YlI0Oy8OiK" role="wIRRj" />
       <node concept="wIRRm" id="3YlI0Oy8OiL" role="wIRRi" />
       <node concept="wIRRn" id="3YlI0Oy8OiM" role="wIRRh" />
-      <node concept="wI8RB" id="3YlI0Oy9fz2" role="wIRRc">
+      <node concept="2aQDYp" id="6iu2WjIhBgN" role="wIRRc">
         <property role="wI8Re" value="7LNOydsMPZw/NOT_EQUAL" />
-        <property role="wIb8y" value="7LNOydsMPZT/ERROR" />
+        <property role="2aQDYq" value="6iu2WjIh9hf/DESTINATION" />
       </node>
     </node>
   </node>

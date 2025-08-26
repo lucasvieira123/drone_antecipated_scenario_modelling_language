@@ -4,16 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1306b077-f2d9-4191-be0b-c5828dc6f6a4" name="Changes" comment="Created initial structure of DSL">
-      <change afterPath="$PROJECT_DIR$/languages/DAS_ML/source_gen/DAS_ML/editor/BatteryCurrentRelationalExpression_Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/DAS_ML/source_gen/DAS_ML/editor/BatteryCurrentRelationalExpression_EditorBuilder_a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/DAS_ML/source_gen/DAS_ML/editor/BatteryVoltageRelationalExpression_Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/DAS_ML/source_gen/DAS_ML/editor/BatteryVoltageRelationalExpression_EditorBuilder_a.java" afterDir="false" />
+    <list default="true" id="1306b077-f2d9-4191-be0b-c5828dc6f6a4" name="Changes" comment="sync">
+      <change afterPath="$PROJECT_DIR$/languages/DAS_ML/source_gen/DAS_ML/constraints/UAVManeuverDirectionRelationalExpression_Constraints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/DAS_ML/source_gen/DAS_ML/constraints/UAVManeuverDirectionToRegionRelationalExpression_Constraints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/DAS_ML/source_gen/DAS_ML/editor/UAVManeuverDirectionToRegionRelationalExpression_Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/DAS_ML/source_gen/DAS_ML/editor/UAVManeuverDirectionToRegionRelationalExpression_EditorBuilder_a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/DAS_ML/source_gen/DAS_ML/structure/EnumerationDescriptor_RelativePositionEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/DAS_ML.sandbox/models/DAS_ML.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML.sandbox/models/DAS_ML.sandbox.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DAS_ML.sandbox/source_gen.caches/DAS_ML/sandbox/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML.sandbox/source_gen.caches/DAS_ML/sandbox/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DAS_ML/classes_gen/DAS_ML/constraints/ConstraintsAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML/classes_gen/DAS_ML/constraints/ConstraintsAspectDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DAS_ML/classes_gen/DAS_ML/constraints/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML/classes_gen/DAS_ML/constraints/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DAS_ML/classes_gen/DAS_ML/constraints/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML/classes_gen/DAS_ML/constraints/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DAS_ML/classes_gen/DAS_ML/editor/EditorAspectDescriptorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML/classes_gen/DAS_ML/editor/EditorAspectDescriptorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DAS_ML/classes_gen/DAS_ML/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML/classes_gen/DAS_ML/editor/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DAS_ML/classes_gen/DAS_ML/structure/ConceptPresentationAspectImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML/classes_gen/DAS_ML/structure/ConceptPresentationAspectImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DAS_ML/classes_gen/DAS_ML/structure/LanguageConceptSwitch.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML/classes_gen/DAS_ML/structure/LanguageConceptSwitch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DAS_ML/classes_gen/DAS_ML/structure/StructureAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML/classes_gen/DAS_ML/structure/StructureAspectDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DAS_ML/classes_gen/DAS_ML/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML/classes_gen/DAS_ML/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DAS_ML/classes_gen/DAS_ML/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML/classes_gen/DAS_ML/structure/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/DAS_ML/models/DAS_ML.constraints.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML/models/DAS_ML.constraints.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/DAS_ML/models/DAS_ML.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML/models/DAS_ML.editor.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/DAS_ML/models/DAS_ML.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML/models/DAS_ML.structure.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DAS_ML/source_gen.caches/DAS_ML/constraints/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML/source_gen.caches/DAS_ML/constraints/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DAS_ML/source_gen.caches/DAS_ML/editor/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML/source_gen.caches/DAS_ML/editor/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DAS_ML/source_gen.caches/DAS_ML/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML/source_gen.caches/DAS_ML/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DAS_ML/source_gen.caches/DAS_ML/structure/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML/source_gen.caches/DAS_ML/structure/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DAS_ML/source_gen/DAS_ML/constraints/ConstraintsAspectDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML/source_gen/DAS_ML/constraints/ConstraintsAspectDescriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DAS_ML/source_gen/DAS_ML/constraints/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML/source_gen/DAS_ML/constraints/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DAS_ML/source_gen/DAS_ML/constraints/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML/source_gen/DAS_ML/constraints/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DAS_ML/source_gen/DAS_ML/editor/EditorAspectDescriptorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML/source_gen/DAS_ML/editor/EditorAspectDescriptorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DAS_ML/source_gen/DAS_ML/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML/source_gen/DAS_ML/editor/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DAS_ML/source_gen/DAS_ML/structure/ConceptPresentationAspectImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML/source_gen/DAS_ML/structure/ConceptPresentationAspectImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DAS_ML/source_gen/DAS_ML/structure/LanguageConceptSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML/source_gen/DAS_ML/structure/LanguageConceptSwitch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DAS_ML/source_gen/DAS_ML/structure/StructureAspectDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML/source_gen/DAS_ML/structure/StructureAspectDescriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DAS_ML/source_gen/DAS_ML/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML/source_gen/DAS_ML/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/DAS_ML/source_gen/DAS_ML/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/DAS_ML/source_gen/DAS_ML/structure/trace.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +52,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="bc28fef3-5597-4ced-9829-b78ecf86f2e3/r:aa7d6e09-a391-4505-9474-1ae1ca7b7e1a(TempModulebc28fef3-5597-4ced-9829-b78ecf86f2e3/ConsoleModel_606290611469)">
+            <model ref="4cee664e-8b23-4e39-821a-76352c1902c0/r:a64c099b-8a0a-4056-9a6e-dcf0db5aabc1(TempModule4cee664e-8b23-4e39-821a-76352c1902c0/ConsoleModel_313824216619)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -46,11 +72,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="3YlI0Oy8O33">
-                <node concept="3balQm" id="3YlI0Oy8O34" role="aymYE" />
-                <node concept="2Clz$F" id="3YlI0Oy8O35" role="aymYO" />
-                <node concept="2_V_lH" id="3YlI0Oy8O36" role="1PhJh3">
-                  <ref role="2_V_lI" node="3YlI0Oy8O35" />
+              <node concept="aymSD" id="6iu2WjIgmrS">
+                <node concept="3balQm" id="6iu2WjIgmrT" role="aymYE" />
+                <node concept="2Clz$F" id="6iu2WjIgmrU" role="aymYO" />
+                <node concept="2_V_lH" id="6iu2WjIgmrV" role="1PhJh3">
+                  <ref role="2_V_lI" node="6iu2WjIgmrU" />
                 </node>
               </node>
             </model>
@@ -196,6 +222,15 @@
               <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
               <item name="MPS Project [drone_antecipated_scenario_modelling_language] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
               <item name="DAS_ML [language]" type="cd46e9f6:LanguageProjectViewNode" />
+              <item name="r:356976db-ed45-449a-b8b5-b0d06c4a39c5(DAS_ML.structure) in IdeaFile[path: /home/luis-gustavo/MPSProjects/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.structure.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+              <item name="'expressions'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+              <item name="'expressions.relational_expressions'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+              <item name="'expressions.relational_expressions.UAV'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [drone_antecipated_scenario_modelling_language] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="DAS_ML [language]" type="cd46e9f6:LanguageProjectViewNode" />
               <item name="r:32c34070-4ae1-455b-948f-5b258efba2b0(DAS_ML.editor) in IdeaFile[path: /home/luis-gustavo/MPSProjects/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.editor.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
             </path>
             <path>
@@ -211,7 +246,25 @@
               <item name="DAS_ML [language]" type="cd46e9f6:LanguageProjectViewNode" />
               <item name="r:32c34070-4ae1-455b-948f-5b258efba2b0(DAS_ML.editor) in IdeaFile[path: /home/luis-gustavo/MPSProjects/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.editor.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
               <item name="'expressions'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+              <item name="'expressions.relational_expressions'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [drone_antecipated_scenario_modelling_language] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="DAS_ML [language]" type="cd46e9f6:LanguageProjectViewNode" />
+              <item name="r:32c34070-4ae1-455b-948f-5b258efba2b0(DAS_ML.editor) in IdeaFile[path: /home/luis-gustavo/MPSProjects/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.editor.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+              <item name="'expressions'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+              <item name="'expressions.relational_expressions'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
               <item name="'expressions.relational_expressions.battery'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [drone_antecipated_scenario_modelling_language] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="DAS_ML [language]" type="cd46e9f6:LanguageProjectViewNode" />
+              <item name="r:32c34070-4ae1-455b-948f-5b258efba2b0(DAS_ML.editor) in IdeaFile[path: /home/luis-gustavo/MPSProjects/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.editor.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+              <item name="'expressions'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+              <item name="'expressions.relational_expressions'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+              <item name="'expressions.relational_expressions.UAV'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
             </path>
             <path>
               <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
@@ -224,7 +277,23 @@
               <item name="MPS Project [drone_antecipated_scenario_modelling_language] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
               <item name="DAS_ML [language]" type="cd46e9f6:LanguageProjectViewNode" />
               <item name="r:f7cd2215-0bd5-4435-a8f7-5ce614951a13(DAS_ML.constraints) in IdeaFile[path: /home/luis-gustavo/MPSProjects/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.constraints.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+              <item name="'expressions.relational_expressions'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [drone_antecipated_scenario_modelling_language] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="DAS_ML [language]" type="cd46e9f6:LanguageProjectViewNode" />
+              <item name="r:f7cd2215-0bd5-4435-a8f7-5ce614951a13(DAS_ML.constraints) in IdeaFile[path: /home/luis-gustavo/MPSProjects/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.constraints.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+              <item name="'expressions.relational_expressions'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
               <item name="'expressions.relational_expressions.battery'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [drone_antecipated_scenario_modelling_language] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="DAS_ML [language]" type="cd46e9f6:LanguageProjectViewNode" />
+              <item name="r:f7cd2215-0bd5-4435-a8f7-5ce614951a13(DAS_ML.constraints) in IdeaFile[path: /home/luis-gustavo/MPSProjects/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.constraints.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+              <item name="'expressions.relational_expressions'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+              <item name="'expressions.relational_expressions.UAV'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
             </path>
           </expand>
           <select />
@@ -294,6 +363,21 @@
                       </presentation>
                       <presentation>
                         <attributes />
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="UAV" />
+                        <item name="'expressions.relational_expressions.UAV'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+                        <presentation>
+                          <attributes />
+                          <data isLeaf="true" text="UAVManeuverDirectionRelationalExpression" />
+                          <item name="UAVManeuverDirectionRelationalExpression" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes />
+                          <data isLeaf="true" text="UAVManeuverDirectionToRegionRelationalExpression" />
+                          <item name="UAVManeuverDirectionToRegionRelationalExpression" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                        </presentation>
+                      </presentation>
+                      <presentation>
+                        <attributes />
                         <data isLeaf="true" text="RelationalExpression" />
                         <item name="RelationalExpression" type="dedc1bdc:SimpleNodeProjectViewNode" />
                       </presentation>
@@ -316,6 +400,11 @@
                   </presentation>
                   <presentation>
                     <attributes />
+                    <data isLeaf="true" text="DirectionEnum" />
+                    <item name="DirectionEnum" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes />
                     <data isLeaf="true" text="DroneAntecipatedScenario" />
                     <item name="DroneAntecipatedScenario" type="dedc1bdc:SimpleNodeProjectViewNode" />
                   </presentation>
@@ -323,6 +412,11 @@
                     <attributes />
                     <data isLeaf="true" text="HighAntecipatedScenarios" />
                     <item name="HighAntecipatedScenarios" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes />
+                    <data isLeaf="true" text="RelativePositionEnum" />
+                    <item name="RelativePositionEnum" type="dedc1bdc:SimpleNodeProjectViewNode" />
                   </presentation>
                   <presentation>
                     <attributes />
@@ -345,32 +439,52 @@
                     </presentation>
                     <presentation>
                       <attributes />
-                      <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="relational_expressions.battery" />
-                      <item name="'expressions.relational_expressions.battery'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+                      <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="relational_expressions" />
+                      <item name="'expressions.relational_expressions'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
                       <presentation>
                         <attributes />
-                        <data isLeaf="true" text="BatteryCapacityRelationalExpression_Editor" />
-                        <item name="(instance of ConceptEditorDeclaration)" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="battery" />
+                        <item name="'expressions.relational_expressions.battery'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+                        <presentation>
+                          <attributes />
+                          <data isLeaf="true" text="BatteryCapacityRelationalExpression_Editor" />
+                          <item name="(instance of ConceptEditorDeclaration)" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes />
+                          <data isLeaf="true" text="BatteryCurrentRelationalExpression_Editor" />
+                          <item name="(instance of ConceptEditorDeclaration)" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes />
+                          <data isLeaf="true" text="BatteryPercentageRelationalExpression_Editor" />
+                          <item name="(instance of ConceptEditorDeclaration)" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes />
+                          <data isLeaf="true" text="BatteryStatusRelationalExpression_Editor" />
+                          <item name="(instance of ConceptEditorDeclaration)" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes />
+                          <data isLeaf="true" text="BatteryVoltageRelationalExpression_Editor" />
+                          <item name="(instance of ConceptEditorDeclaration)" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                        </presentation>
                       </presentation>
                       <presentation>
                         <attributes />
-                        <data isLeaf="true" text="BatteryCurrentRelationalExpression_Editor" />
-                        <item name="(instance of ConceptEditorDeclaration)" type="dedc1bdc:SimpleNodeProjectViewNode" />
-                      </presentation>
-                      <presentation>
-                        <attributes />
-                        <data isLeaf="true" text="BatteryPercentageRelationalExpression_Editor" />
-                        <item name="(instance of ConceptEditorDeclaration)" type="dedc1bdc:SimpleNodeProjectViewNode" />
-                      </presentation>
-                      <presentation>
-                        <attributes />
-                        <data isLeaf="true" text="BatteryStatusRelationalExpression_Editor" />
-                        <item name="(instance of ConceptEditorDeclaration)" type="dedc1bdc:SimpleNodeProjectViewNode" />
-                      </presentation>
-                      <presentation>
-                        <attributes />
-                        <data isLeaf="true" text="BatteryVoltageRelationalExpression_Editor" />
-                        <item name="(instance of ConceptEditorDeclaration)" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="UAV" />
+                        <item name="'expressions.relational_expressions.UAV'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+                        <presentation>
+                          <attributes />
+                          <data isLeaf="true" text="UAVManeuverDirectionRelationalExpression_Editor" />
+                          <item name="(instance of ConceptEditorDeclaration)" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes />
+                          <data isLeaf="true" text="UAVManeuverDirectionToRegionRelationalExpression_Editor" />
+                          <item name="(instance of ConceptEditorDeclaration)" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                        </presentation>
                       </presentation>
                     </presentation>
                   </presentation>
@@ -391,12 +505,32 @@
                   <item name="r:f7cd2215-0bd5-4435-a8f7-5ce614951a13(DAS_ML.constraints) in IdeaFile[path: /home/luis-gustavo/MPSProjects/drone_antecipated_scenario_modelling_language/languages/DAS_ML/models/DAS_ML.constraints.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
                   <presentation>
                     <attributes />
-                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="expressions.relational_expressions.battery" />
-                    <item name="'expressions.relational_expressions.battery'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="expressions.relational_expressions" />
+                    <item name="'expressions.relational_expressions'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
                     <presentation>
                       <attributes />
-                      <data isLeaf="true" text="BatteryStatusRelationalExpression_Constraints" />
-                      <item name="(instance of ConceptConstraints)" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                      <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="battery" />
+                      <item name="'expressions.relational_expressions.battery'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+                      <presentation>
+                        <attributes />
+                        <data isLeaf="true" text="BatteryStatusRelationalExpression_Constraints" />
+                        <item name="(instance of ConceptConstraints)" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                      </presentation>
+                    </presentation>
+                    <presentation>
+                      <attributes />
+                      <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="UAV" />
+                      <item name="'expressions.relational_expressions.UAV'" type="93bfb7e3:BaseVirtualFolderProjectViewNode$NodesVirtualFolderProjectViewNode" />
+                      <presentation>
+                        <attributes />
+                        <data isLeaf="true" text="UAVManeuverDirectionRelationalExpression_Constraints" />
+                        <item name="(instance of ConceptConstraints)" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes />
+                        <data isLeaf="true" text="UAVManeuverDirectionToRegionRelationalExpression_Constraints" />
+                        <item name="(instance of ConceptConstraints)" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                      </presentation>
                     </presentation>
                   </presentation>
                 </presentation>
@@ -474,7 +608,23 @@
       <option name="project" value="LOCAL" />
       <updated>1755026050465</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Created initial structure of DSL">
+      <option name="closed" value="true" />
+      <created>1755208423488</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1755208423488</updated>
+    </task>
+    <task id="LOCAL-00003" summary="sync">
+      <option name="closed" value="true" />
+      <created>1755208483059</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1755208483059</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -497,6 +647,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created initial structure of DSL" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created initial structure of DSL" />
+    <MESSAGE value="sync" />
+    <option name="LAST_COMMIT_MESSAGE" value="sync" />
   </component>
 </project>

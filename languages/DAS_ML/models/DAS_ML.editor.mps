@@ -272,5 +272,52 @@
       <node concept="2iRfu4" id="3YlI0Oy9fS2" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="6iu2WjIgsgs">
+    <property role="3GE5qa" value="expressions.relational_expressions.UAV" />
+    <ref role="1XX52x" to="4jf8:6iu2WjIgsgp" resolve="UAVManeuverDirectionRelationalExpression" />
+    <node concept="3EZMnI" id="6iu2WjIgsgu" role="2wV5jI">
+      <node concept="3F0ifn" id="6iu2WjIgsgz" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+      </node>
+      <node concept="3F0ifn" id="6iu2WjIgsgA" role="3EZMnx">
+        <property role="3F0ifm" value="UAV.direction" />
+      </node>
+      <node concept="3F0A7n" id="6iu2WjIgsgI" role="3EZMnx">
+        <ref role="1NtTu8" to="4jf8:7LNOydsMPZH" resolve="relational_operator" />
+      </node>
+      <node concept="3F0A7n" id="6iu2WjIgsh6" role="3EZMnx">
+        <ref role="1NtTu8" to="4jf8:6iu2WjIgsgN" resolve="direction" />
+      </node>
+      <node concept="3F0ifn" id="6iu2WjIgsh9" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+      </node>
+      <node concept="2iRfu4" id="6iu2WjIgsgx" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="6iu2WjIh9hw">
+    <property role="3GE5qa" value="expressions.relational_expressions.UAV" />
+    <ref role="1XX52x" to="4jf8:6iu2WjIh9ht" resolve="UAVManeuverDirectionToRegionRelationalExpression" />
+    <node concept="3EZMnI" id="6iu2WjIh9h_" role="2wV5jI">
+      <node concept="3F0ifn" id="6iu2WjIh9hD" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+      </node>
+      <node concept="3F0ifn" id="6iu2WjIh9hI" role="3EZMnx">
+        <property role="3F0ifm" value="UAV.direction" />
+      </node>
+      <node concept="3F0A7n" id="6iu2WjIh9hL" role="3EZMnx">
+        <ref role="1NtTu8" to="4jf8:7LNOydsMPZH" resolve="relational_operator" />
+      </node>
+      <node concept="3F0A7n" id="6iu2WjIh9hQ" role="3EZMnx">
+        <ref role="1NtTu8" to="4jf8:6iu2WjIh9hu" resolve="direction" />
+      </node>
+      <node concept="3F0ifn" id="6iu2WjIho_Q" role="3EZMnx">
+        <property role="3F0ifm" value="region" />
+      </node>
+      <node concept="3F0ifn" id="6iu2WjIh9hT" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+      </node>
+      <node concept="2iRfu4" id="6iu2WjIh9hC" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

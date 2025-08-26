@@ -30,7 +30,11 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptLogicalExpression = createDescriptorForLogicalExpression();
   /*package*/ final ConceptDescriptor myConceptOrLogicalExpression = createDescriptorForOrLogicalExpression();
   /*package*/ final ConceptDescriptor myConceptRelationalExpression = createDescriptorForRelationalExpression();
+  /*package*/ final ConceptDescriptor myConceptUAVManeuverDirectionRelationalExpression = createDescriptorForUAVManeuverDirectionRelationalExpression();
+  /*package*/ final ConceptDescriptor myConceptUAVManeuverDirectionToRegionRelationalExpression = createDescriptorForUAVManeuverDirectionToRegionRelationalExpression();
+  /*package*/ final EnumerationDescriptor myEnumerationDirectionEnum = new EnumerationDescriptor_DirectionEnum();
   /*package*/ final EnumerationDescriptor myEnumerationRelationalOperatorEnum = new EnumerationDescriptor_RelationalOperatorEnum();
+  /*package*/ final EnumerationDescriptor myEnumerationRelativePositionEnum = new EnumerationDescriptor_RelativePositionEnum();
   /*package*/ final EnumerationDescriptor myEnumerationStatusEnum = new EnumerationDescriptor_StatusEnum();
   private final LanguageConceptSwitch myIndexSwitch;
 
@@ -46,7 +50,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptActionExpression, myConceptAndLogicalExpression, myConceptAntecipatedScenarioRelationship, myConceptBatteryCapacityRelationalExpression, myConceptBatteryCurrentRelationalExpression, myConceptBatteryPercentageRelationalExpression, myConceptBatteryStatusRelationalExpression, myConceptBatteryVoltageRelationalExpression, myConceptConditionalExpression, myConceptDroneAntecipatedScenario, myConceptHighAntecipatedScenarios, myConceptLogicalExpression, myConceptOrLogicalExpression, myConceptRelationalExpression);
+    return Arrays.asList(myConceptActionExpression, myConceptAndLogicalExpression, myConceptAntecipatedScenarioRelationship, myConceptBatteryCapacityRelationalExpression, myConceptBatteryCurrentRelationalExpression, myConceptBatteryPercentageRelationalExpression, myConceptBatteryStatusRelationalExpression, myConceptBatteryVoltageRelationalExpression, myConceptConditionalExpression, myConceptDroneAntecipatedScenario, myConceptHighAntecipatedScenarios, myConceptLogicalExpression, myConceptOrLogicalExpression, myConceptRelationalExpression, myConceptUAVManeuverDirectionRelationalExpression, myConceptUAVManeuverDirectionToRegionRelationalExpression);
   }
 
   @Override
@@ -81,6 +85,10 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptOrLogicalExpression;
       case LanguageConceptSwitch.RelationalExpression:
         return myConceptRelationalExpression;
+      case LanguageConceptSwitch.UAVManeuverDirectionRelationalExpression:
+        return myConceptUAVManeuverDirectionRelationalExpression;
+      case LanguageConceptSwitch.UAVManeuverDirectionToRegionRelationalExpression:
+        return myConceptUAVManeuverDirectionToRegionRelationalExpression;
       default:
         return null;
     }
@@ -88,7 +96,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<DataTypeDescriptor> getDataTypeDescriptors() {
-    return Arrays.asList(myEnumerationRelationalOperatorEnum, myEnumerationStatusEnum);
+    return Arrays.asList(myEnumerationDirectionEnum, myEnumerationRelationalOperatorEnum, myEnumerationRelativePositionEnum, myEnumerationStatusEnum);
   }
 
   /*package*/ int internalIndex(SAbstractConcept c) {
@@ -229,6 +237,26 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:356976db-ed45-449a-b8b5-b0d06c4a39c5(DAS_ML.structure)/8967742332347133951");
     b.version(3);
     b.property("relational_operator", 0x7c73d2235ccb5fedL).type(MetaIdFactory.dataTypeId(0xb5193d0ff2e3489fL, 0x8a11cbd304ed9c53L, 0x7c73d2235ccb5fd8L)).origin("8967742332347310061").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForUAVManeuverDirectionRelationalExpression() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("DAS_ML", "UAVManeuverDirectionRelationalExpression", 0xb5193d0ff2e3489fL, 0x8a11cbd304ed9c53L, 0x649e0bc4ee41c419L);
+    b.class_(false, false, false);
+    // extends: DAS_ML.structure.RelationalExpression
+    b.super_(0xb5193d0ff2e3489fL, 0x8a11cbd304ed9c53L, 0x7c73d2235cc8afffL);
+    b.origin("r:356976db-ed45-449a-b8b5-b0d06c4a39c5(DAS_ML.structure)/7250245390551860249");
+    b.version(3);
+    b.property("direction", 0x649e0bc4ee41c433L).type(MetaIdFactory.dataTypeId(0xb5193d0ff2e3489fL, 0x8a11cbd304ed9c53L, 0x649e0bc4ee41c435L)).origin("7250245390551860275").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForUAVManeuverDirectionToRegionRelationalExpression() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("DAS_ML", "UAVManeuverDirectionToRegionRelationalExpression", 0xb5193d0ff2e3489fL, 0x8a11cbd304ed9c53L, 0x649e0bc4ee44945dL);
+    b.class_(false, false, false);
+    // extends: DAS_ML.structure.RelationalExpression
+    b.super_(0xb5193d0ff2e3489fL, 0x8a11cbd304ed9c53L, 0x7c73d2235cc8afffL);
+    b.origin("r:356976db-ed45-449a-b8b5-b0d06c4a39c5(DAS_ML.structure)/7250245390552044637");
+    b.version(3);
+    b.property("direction", 0x649e0bc4ee44945eL).type(MetaIdFactory.dataTypeId(0xb5193d0ff2e3489fL, 0x8a11cbd304ed9c53L, 0x649e0bc4ee44944cL)).origin("7250245390552044638").done();
     return b.create();
   }
 }
